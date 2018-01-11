@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    background-color: #55ACEE;
+    margin: 0;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;}
+
+header h1 {
+    font-weight: 300;
+    padding: 50px 0 100px;
+}
+
+.quote {
+    min-height: 140px;
+}
+.quote, .author {
+    font-weight: 100;
+    padding: 20px
+}
+.btn, .btn2{
+    margin: 20px 30%;
+    position: relative;
+}
+
+.trigger, .tweet {
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tweet {
+    position: absolute;
+    transform: translateX(-50%)
+}
