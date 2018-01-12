@@ -9,7 +9,8 @@ main {
     height: 100vh;
     color: #ffffff;
     text-align: center;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
 
 header h1 {
     font-weight: 300;
@@ -19,16 +20,27 @@ header h1 {
 .quote {
     min-height: 140px;
 }
-.quote, .author {
+
+.quote,
+.author {
     font-weight: 100;
     padding: 20px
 }
-.btn, .btn2{
+
+.btn,
+.btn2 {
     margin: 20px 30%;
     position: relative;
+    transition: 0.5s;
 }
 
-.trigger, .tweet {
+.btn:hover,
+.tweet:hover {
+    background-color: rgba(56, 72, 85, 0.38);
+}
+
+.trigger,
+.tweet {
     font-family: 'Roboto', sans-serif;
     background: transparent;
     text-decoration: none;
@@ -44,5 +56,6 @@ header h1 {
 
 .tweet {
     position: absolute;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    transition: 0.5s;
 }
